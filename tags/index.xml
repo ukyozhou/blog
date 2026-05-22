@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on My Quiet Musings</title>
-        <link>https://ukyozhou.github.io/blog/tags/</link>
+        <link>http://blog.powerwilling.com/tags/</link>
         <description>Recent content in Tags on My Quiet Musings</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>My Quiet Musings</copyright>
-        <lastBuildDate>Wed, 20 May 2026 15:18:53 +0800</lastBuildDate><atom:link href="https://ukyozhou.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 20 May 2026 15:18:53 +0800</lastBuildDate><atom:link href="http://blog.powerwilling.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Linux</title>
-        <link>https://ukyozhou.github.io/blog/tags/linux/</link>
+        <link>http://blog.powerwilling.com/tags/linux/</link>
         <pubDate>Wed, 20 May 2026 15:18:53 +0800</pubDate>
         
-        <guid>https://ukyozhou.github.io/blog/tags/linux/</guid>
+        <guid>http://blog.powerwilling.com/tags/linux/</guid>
         <description></description>
         </item>
         <item>
         <title>Blog</title>
-        <link>https://ukyozhou.github.io/blog/tags/blog/</link>
+        <link>http://blog.powerwilling.com/tags/blog/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://ukyozhou.github.io/blog/tags/blog/</guid>
+        <guid>http://blog.powerwilling.com/tags/blog/</guid>
         <description></description>
         </item>
         <item>
         <title>Markdown</title>
-        <link>https://ukyozhou.github.io/blog/tags/markdown/</link>
+        <link>http://blog.powerwilling.com/tags/markdown/</link>
         <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://ukyozhou.github.io/blog/tags/markdown/</guid>
+        <guid>http://blog.powerwilling.com/tags/markdown/</guid>
         <description></description>
         </item>
         <item>
         <title>Tag With Whitespaces</title>
-        <link>https://ukyozhou.github.io/blog/tags/tag-with-whitespaces/</link>
+        <link>http://blog.powerwilling.com/tags/tag-with-whitespaces/</link>
         <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://ukyozhou.github.io/blog/tags/tag-with-whitespaces/</guid>
+        <guid>http://blog.powerwilling.com/tags/tag-with-whitespaces/</guid>
         <description></description>
         </item>
         <item>
         <title>Text</title>
-        <link>https://ukyozhou.github.io/blog/tags/text/</link>
+        <link>http://blog.powerwilling.com/tags/text/</link>
         <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://ukyozhou.github.io/blog/tags/text/</guid>
+        <guid>http://blog.powerwilling.com/tags/text/</guid>
         <description></description>
         </item>
         <item>
         <title>Emoji</title>
-        <link>https://ukyozhou.github.io/blog/tags/emoji/</link>
+        <link>http://blog.powerwilling.com/tags/emoji/</link>
         <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://ukyozhou.github.io/blog/tags/emoji/</guid>
+        <guid>http://blog.powerwilling.com/tags/emoji/</guid>
         <description></description>
         </item>
         

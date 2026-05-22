@@ -4,17 +4,17 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="grub更新后原本的windows启动项消失的解决方法 1 2 3 4 5 6 7 8 9 10 11 12 13 14 #找到并打开如下文件 ： sudo nano /etc/default/grub #添加或者修改下面这行，并保存退出 GRUB_DISABLE_OS_PROBER=false #运行： sudo os-prober #正常会出现如下的输出： /dev/nvme0n1p3 : Windows11 : Windows : chain #重新生成grub配置并重新启动 sudo update-grub ">
 <title>Linux碎碎念</title>
 
-<link rel='canonical' href='https://ukyozhou.github.io/blog/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/'>
+<link rel='canonical' href='http://blog.powerwilling.com/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/'>
 
-<link rel="stylesheet" href="/blog/scss/style.min.86591c898bd806857815fbb8c47e8d3fed97c133b78e83d9bfc27b164dd0aa2b.css"><meta property='og:title' content="Linux碎碎念">
+<link rel="stylesheet" href="/scss/style.min.86591c898bd806857815fbb8c47e8d3fed97c133b78e83d9bfc27b164dd0aa2b.css"><meta property='og:title' content="Linux碎碎念">
 <meta property='og:description' content="grub更新后原本的windows启动项消失的解决方法 1 2 3 4 5 6 7 8 9 10 11 12 13 14 #找到并打开如下文件 ： sudo nano /etc/default/grub #添加或者修改下面这行，并保存退出 GRUB_DISABLE_OS_PROBER=false #运行： sudo os-prober #正常会出现如下的输出： /dev/nvme0n1p3 : Windows11 : Windows : chain #重新生成grub配置并重新启动 sudo update-grub ">
-<meta property='og:url' content='https://ukyozhou.github.io/blog/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/'>
+<meta property='og:url' content='http://blog.powerwilling.com/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/'>
 <meta property='og:site_name' content='My Quiet Musings'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Linux' /><meta property='article:published_time' content='2026-05-20T15:18:53&#43;08:00'/><meta property='article:modified_time' content='2026-05-20T15:18:53&#43;08:00'/><meta property='og:image' content='https://ukyozhou.github.io/blog/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/Linux-operating-system.webp' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Linux' /><meta property='article:published_time' content='2026-05-20T15:18:53&#43;08:00'/><meta property='article:modified_time' content='2026-05-20T15:18:53&#43;08:00'/><meta property='og:image' content='http://blog.powerwilling.com/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/Linux-operating-system.webp' />
 <meta name="twitter:title" content="Linux碎碎念">
 <meta name="twitter:description" content="grub更新后原本的windows启动项消失的解决方法 1 2 3 4 5 6 7 8 9 10 11 12 13 14 #找到并打开如下文件 ： sudo nano /etc/default/grub #添加或者修改下面这行，并保存退出 GRUB_DISABLE_OS_PROBER=false #运行： sudo os-prober #正常会出现如下的输出： /dev/nvme0n1p3 : Windows11 : Windows : chain #重新生成grub配置并重新启动 sudo update-grub "><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://ukyozhou.github.io/blog/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/Linux-operating-system.webp' />
-    <link rel="shortcut icon" href="/blog/img/favicon.ico" />
+    <meta name="twitter:image" content='http://blog.powerwilling.com/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/Linux-operating-system.webp' />
+    <link rel="shortcut icon" href="/img/favicon.ico" />
 
     </head>
     <body class="
@@ -53,13 +53,13 @@
         
             
             <figure class="site-avatar">
-                <a href="/blog/">
+                <a href="/">
                 
                     
                     
                     
                         
-                        <img src="/blog/img/avatar_hu_741f2328f26063ae.png" width="300"
+                        <img src="/img/avatar_hu_741f2328f26063ae.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -72,7 +72,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/blog">My Quiet Musings</a></h1>
+            <h1 class="site-name"><a href="/">My Quiet Musings</a></h1>
             <h2 class="site-description">It could be worse</h2>
         </div>
     </header><ol class="menu" id="main-menu">
@@ -80,7 +80,7 @@
         
         
         <li >
-            <a href='/blog/' >
+            <a href='/' >
                 
                 
                 
@@ -100,7 +100,7 @@
         
         
         <li >
-            <a href='/blog/archives/' >
+            <a href='/archives/' >
                 
                 
                 
@@ -120,7 +120,7 @@
         
         
         <li >
-            <a href='/blog/search/' >
+            <a href='/search/' >
                 
                 
                 
@@ -139,7 +139,7 @@
         
         
         <li >
-            <a href='/blog/links/' >
+            <a href='/links/' >
                 
                 
                 
@@ -222,9 +222,9 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/blog/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/">
-                <img src="/blog/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/Linux-operating-system_hu_2a2c1a559755e816.webp"
-                        srcset="/blog/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/Linux-operating-system_hu_2a2c1a559755e816.webp 800w, /blog/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/Linux-operating-system_hu_a1221884d8f1c78d.webp 1600w"
+            <a href="/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/">
+                <img src="/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/Linux-operating-system_hu_2a2c1a559755e816.webp"
+                        srcset="/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/Linux-operating-system_hu_2a2c1a559755e816.webp 800w, /p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/Linux-operating-system_hu_a1221884d8f1c78d.webp 1600w"
                         width="800" 
                         height="339" 
                         loading="lazy"
@@ -241,7 +241,7 @@
             
             
             
-            <a href="/blog/categories/linux/" style="background-color: hsl(237, 60%, 84%); color: hsl(237, 60%, 15%);">
+            <a href="/categories/linux/" style="background-color: hsl(237, 60%, 84%); color: hsl(237, 60%, 15%);">
                 Linux
             </a>
         
@@ -250,7 +250,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/blog/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/">Linux碎碎念</a>
+            <a href="/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/">Linux碎碎念</a>
         </h2>
     
         
@@ -331,7 +331,7 @@
     
     <section class="article-tags">
         
-            <a href="/blog/tags/linux/">Linux</a>
+            <a href="/tags/linux/">Linux</a>
         
     </section>
 
@@ -450,7 +450,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/blog/ts/main.c922af694cc257bf1ecc41c0dd7b0430f9114ec280ccf67cd2c6ad55f5316c4e.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.c922af694cc257bf1ecc41c0dd7b0430f9114ec280ccf67cd2c6ad55f5316c4e.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
