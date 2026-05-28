@@ -7,29 +7,21 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>My Quiet Musings</copyright>
-        <lastBuildDate>Wed, 20 May 2026 15:18:53 +0800</lastBuildDate><atom:link href="https://blog.powerwilling.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 26 May 2026 13:50:25 +0800</lastBuildDate><atom:link href="https://blog.powerwilling.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Blog</title>
+        <link>https://blog.powerwilling.com/categories/blog/</link>
+        <pubDate>Tue, 26 May 2026 13:50:25 +0800</pubDate>
+        
+        <guid>https://blog.powerwilling.com/categories/blog/</guid>
+        <description>&lt;img src="https://blog.powerwilling.com/categories/blog/blog.jpg" alt="Featured image of post Blog" /&gt;</description>
+        </item>
+        <item>
         <title>Linux</title>
         <link>https://blog.powerwilling.com/categories/linux/</link>
         <pubDate>Wed, 20 May 2026 15:18:53 +0800</pubDate>
         
         <guid>https://blog.powerwilling.com/categories/linux/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Blog</title>
-        <link>https://blog.powerwilling.com/categories/blog/</link>
-        <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.powerwilling.com/categories/blog/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Test</title>
-        <link>https://blog.powerwilling.com/categories/test/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.powerwilling.com/categories/test/</guid>
-        <description>&lt;img src="https://blog.powerwilling.com/categories/test/testing.png" alt="Featured image of post Test" /&gt;</description>
+        <description>&lt;img src="https://blog.powerwilling.com/categories/linux/Linux-operating-system.webp" alt="Featured image of post Linux" /&gt;</description>
         </item>
         
     </channel>

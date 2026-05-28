@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Test on My Quiet Musings</title>
+        <link>http://localhost:1313/categories/test-copy/</link>
+        <description>Recent content in Test on My Quiet Musings</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>My Quiet Musings</copyright><atom:link href="http://localhost:1313/categories/test-copy/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>
