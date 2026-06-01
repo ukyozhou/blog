@@ -24,8 +24,8 @@
         framespacing=&#34;0&#34; 
         allowfullscreen=&#34;true&#34;&gt;
 &lt;/iframe&gt;
-&lt;p&gt;  特别要注意的是，该视频发布于2024年。如今hugo和stack的版本均有较大的升级。但是要想顺利搭建，建议还是使用和视频里相同的版本。虽然老了点，打算对于搭建简单博客来说完全没问题。如果要采用最新的版本，那么在搭建过程中可能会出现一些小问题，需要自己去研究了。&lt;/p&gt;
-&lt;p&gt;  hugo的博客内容完全在其子目录下public下。所以每次要上传博客至Github时，可以先删除整个public目录，然后使用hugo -D命令来重建public目录。另外hugo.yaml文件在博客域名确定后，里面的baseurl的值必须改成正确的博客域名。&lt;/p&gt;
+&lt;p&gt;  特别要注意的是，该视频发布于2024年。如今hugo和stack的版本均有较大的升级。但是要想顺利搭建，建议还是使用和视频里相同的版本。虽然老了点，但是对于搭建简单博客来说完全没问题。如果要采用最新的版本，那么在搭建过程中可能会出现一些小问题，需要自己去研究了。&lt;/p&gt;
+&lt;p&gt;  hugo的博客内容完全在其子目录下public下。Github仓库可以创建在这个目录下。首次上传博客至Github前，可以先删除整个public目录，然后使用hugo -D命令来重建public目录。以后每次更新博客就不需要这么做了。另外hugo.yaml文件在博客域名确定后，里面的baseurl的值必须改成正确的博客域名。&lt;/p&gt;
 &lt;h3 id=&#34;github部署&#34;&gt;Github部署：
 &lt;/h3&gt;&lt;p&gt;  本博客是部署在github上的。首先要注意，GitHub 已于2021年8月13日起停止支持密码认证，必须使用个人访问令牌（PAT）代替密码进行HTTPS Git操作。具体步骤如下：&lt;/p&gt;
 &lt;ol&gt;
@@ -112,7 +112,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;注意：
-如果修改了博客内容并重新创建了public子目录的话，那么最后一步的push会报错（因为整个目录重新生成了，和远程仓库不一致）。这时候需要想执行一下pull命令拉取下远程仓库的内容，然后再push。&lt;/p&gt;
+如果修改了博客内容并重新创建了整个public子目录的话，那么最后一步的push会报错（因为整个目录重新生成了，和远程仓库不一致）。这时候需要想执行一下pull命令拉取下远程仓库的内容，然后再push。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
