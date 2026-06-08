@@ -13,8 +13,8 @@
         <pubDate>Wed, 20 May 2026 15:18:53 +0800</pubDate>
         
         <guid>https://blog.powerwilling.com/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/</guid>
-        <description>&lt;img src="https://blog.powerwilling.com/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/Linux-operating-system.webp" alt="Featured image of post Linux碎碎念" /&gt;&lt;h2 id=&#34;grub更新后原本的windows启动项消失的解决方法&#34;&gt;grub更新后原本的windows启动项消失的解决方法
-&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+        <description>&lt;img src="https://blog.powerwilling.com/p/linux%E7%A2%8E%E7%A2%8E%E5%BF%B5/Linux-operating-system.webp" alt="Featured image of post Linux碎碎念" /&gt;&lt;h3 id=&#34;grub更新后原本的windows启动项消失的解决方法&#34;&gt;grub更新后原本的windows启动项消失的解决方法
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
@@ -48,7 +48,36 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; sudo update-grub
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description>
+&lt;/div&gt;&lt;h3 id=&#34;一些bash下好用的快捷键&#34;&gt;一些bash下好用的快捷键
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;[tab]&lt;br&gt;&lt;/strong&gt;
+这是你不能没有的 Linux 快捷键。它将节省你 Linux 命令行中的大量时间。只需要输入一个命令，文件名，目录名甚至是命令选项的开头，并敲击 tab 键。它将自动完成你输入的内容，或为你显示全部可能的结果。如果你只记一个快捷键，这将是必选的一个。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[ctrl+c]&lt;br&gt;&lt;/strong&gt;
+这些是为了在终端上中断命令或进程该按的键。它将立刻终止运行的程序。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Ctrl+z]&lt;br&gt;&lt;/strong&gt;
+如果你想要停止使用一个正在后台运行的程序，只需按下这对组合键键。该快捷键将正在运行的程序送到后台。通常，你可以在使用&amp;amp;选项运行程序前之完成该操作， 但是如果你忘记使用选项运行程序，就使用这对组合键。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Ctrl+a]&lt;br&gt;&lt;/strong&gt;
+该快捷键将移动光标到所在行首。假设你在终端输入了一个很长的命令或路径，并且你想要回到它的开头， 使用方向键移动光标将花费大量时间。注意你无法使用鼠标移动光标到行首。这是Ctrl+a节省时间的地方。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Ctrl+e]&lt;br&gt;&lt;/strong&gt;
+这对快捷键与 Ctrl+a 相反。Ctrl+a 送光标到行首，反之 Ctrl+e 移动光标到行尾。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Ctrl+u]&lt;br&gt;&lt;/strong&gt;
+输入了错误的命令？代替用退格键来丢弃当前命令，使用 Linux 终端中的 Ctrl+u 快捷键。该快捷键会擦除从当前光标位置到行首的全部内容。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Ctrl+k]&lt;br&gt;&lt;/strong&gt;
+这对和 Ctrl+u 快捷键有点像。唯一的不同在于不是行首，它擦除的是从当前光标位置到行尾的全部内容。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Ctrl+w]&lt;br&gt;&lt;/strong&gt;
+你刚才了解了擦除到行首和行尾的文本。但如果你只需要删除一个单词呢？使用 Ctrl+W 快捷键。使用 Ctrl+W 快捷键，你可以擦除光标位置前的单词。如果光标在一个单词本身上，它将擦除从光标位置到词首的全部字母。最好的方法是用它移动光标到要删除单词后的一个空格上， 然后使用 Ctrl+w 键盘快捷键。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Alt–d]&lt;br&gt;&lt;/strong&gt;
+由光标位置开始，往右删除单词。往行尾删&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Ctrl+y]&lt;br&gt;&lt;/strong&gt;
+这将粘贴使用 Ctrl+w，Ctrl+u 和 Ctrl+k 快捷键擦除的文本。如果你删除了错误的文本或需要在某处使用已擦除的文本，这将派上用场。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Ctrl+p]&lt;br&gt;&lt;/strong&gt;
+你可以使用该快捷键来查看上一个命令。你可以反复按该键来返回到历史命令。在很多终端里，使用 PgUp 键来实现相同的功能。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Ctrl+n]&lt;br&gt;&lt;/strong&gt;
+你可以结合 Ctrl+p 使用该快捷键。Ctrl+n 显示下一个命令。如果使用 Ctrl+p 查看上一条命令，你可以使用 Ctrl+n 来回导航。许多终端都把此快捷键映射到 PgDn 键。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Ctrl+r]&lt;br&gt;&lt;/strong&gt;
+你可以使用该快捷键来搜索历史命令。反复按这个组合键可以在多个匹配的命令之间跳转选择。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Ctrl+左右键]&lt;br&gt;&lt;/strong&gt;
+在单词之间跳转&lt;/p&gt;
+</description>
         </item>
         
     </channel>
